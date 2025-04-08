@@ -5,16 +5,16 @@ Valentina Artola
 
 ## ¿Cómo ejecutar el trabajo?
 1. Clonar el repositorio
-   'git@github.com:um-programacion-ii/programacion-2-trabajo-practico-1-valeartola.git'
+   `git@github.com:um-programacion-ii/programacion-2-trabajo-practico-1-valeartola.git`
 2. Compila el código Asegurarse primero de estar en la carpeta donde están los archivos .java
-   'javac *.java'
+   `javac *.java`
 3. Ejecuta el código
-   'java Main.java'
+   `java Main.java`
 
 ## Requisitos previos
 - Java JDK 8 o superior instalado. Verificá que tengas javac y java instalados:
-'java -version
-javac -version'
+`java -version`
+`javac -version`
 - IDE de tu elección (Eclipse, IntelliJ IDEA, etc.) o terminal para compilar y ejecutar. -Git instalado para clonar el repositorio.
 
 ## Ejemplo
