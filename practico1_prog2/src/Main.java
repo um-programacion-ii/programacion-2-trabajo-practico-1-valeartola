@@ -12,6 +12,7 @@ public class Main {
         vehiculos.add(new Vehiculo("AF378VA", "Citroen", 2024, 1500));
         vehiculos.add(new Camion("AD777GH", "Volvo", 2021, 5000, true));
         vehiculos.add(new Camion("AA426TD", "Merecedes", 2022, 5000, false));
+        vehiculos.add(new Auto("AF243KI", "Fiat", 2019, 1000, 5));
 
         VehiculoPrinter printer = new VehiculoPrinter();
 
