@@ -14,10 +14,8 @@ public class Main {
         vehiculos.add(new Camion("AA426TD", "Merecedes", 2022, 5000, false));
         vehiculos.add(new Auto("AF243KI", "Fiat", 2019, 1000, 5));
 
-        VehiculoPrinter printer = new VehiculoPrinter();
-
         for (Vehiculo v : vehiculos) {
-            printer.imprimir(v);
+            VehiculoPrinter.imprimir(v);
         }
 
     }

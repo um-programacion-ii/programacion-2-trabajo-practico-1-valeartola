@@ -1,5 +1,43 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-JQrLgaz)
 # 🧠 Trabajo Práctico: Sistema de Gestión de Vehículos (Java + SOLID + GitHub)
+## Alumno
+Valentina Artola
+
+## ¿Cómo ejecutar el trabajo?
+1. Clonar el repositorio
+   `git@github.com:um-programacion-ii/programacion-2-trabajo-practico-1-valeartola.git`
+2. Compila el código Asegurarse primero de estar en la carpeta donde están los archivos .java
+   `javac *.java`
+3. Ejecuta el código
+   `java Main.java`
+
+## Requisitos previos
+- Java JDK 8 o superior instalado. Verificá que tengas javac y java instalados:
+`java -version`
+`javac -version`
+- IDE de tu elección (Eclipse, IntelliJ IDEA, etc.) o terminal para compilar y ejecutar. -Git instalado para clonar el repositorio.
+
+## Ejemplo
+  ```java
+import java.util.ArrayList;
+public class Main {
+public static void main(String[] args) {
+ArrayList<Vehiculo> vehiculos = new ArrayList<>();
+
+
+        vehiculos.add(new Vehiculo("AF378VA", "Citroen", 2024, 1500));
+        vehiculos.add(new Camion("AD777GH", "Volvo", 2021, 5000, true));
+        vehiculos.add(new Camion("AA426TD", "Merecedes", 2022, 5000, false));
+        vehiculos.add(new Auto("AF243KI", "Fiat", 2019, 1000, 5));
+
+        for (Vehiculo v : vehiculos) {
+            VehiculoPrinter.imprimir(v);
+        }
+
+    }
+}
+  ```
+
 
 ## 📌 Objetivo General
 
