@@ -1,10 +1,10 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import java.util.*;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        List<Vehiculo> vehiculos = new ArrayList<>();
+        ArrayList<Vehiculo> vehiculos = new ArrayList<>();
 
         vehiculos.add(new Vehiculo("AB123CD", "Toyota", 2020, 1000));
         vehiculos.add(new Vehiculo("AC857DF", "Peugeot", 2023, 1000));
@@ -19,6 +19,7 @@ public class Main {
         for (Vehiculo v : vehiculos) {
             printer.imprimir(v);
         }
+
     }
 }
 
