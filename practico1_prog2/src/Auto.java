@@ -15,8 +15,9 @@ public class Auto extends Vehiculo {
     }
 
     @Override
-    public String getDescripcion() {
-        return super.getDescripcion() + " - Pasajeros: " + cantidadPasajeros;
+    public String getTipo() {
+        return "Auto";
     }
+
 }
 
