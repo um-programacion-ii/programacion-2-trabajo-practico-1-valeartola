@@ -2,9 +2,9 @@ public class Vehiculo {
     protected String patente;
     protected String marca;
     protected int anio;
-    protected int capacidadCargaKg;
+    private double capacidadCargaKg;
 
-    public Vehiculo(String patente, String marca, int anio, int capacidadCargaKg){
+    public Vehiculo(String patente, String marca, int anio, double capacidadCargaKg){
         this.patente = patente;
         this.marca = marca;
         this.anio = anio;
@@ -35,11 +35,11 @@ public class Vehiculo {
         this.anio = anio;
     }
 
-    public int getCapacidadCargaKg() {
+    public double getCapacidadCargaKg() {
         return capacidadCargaKg;
     }
 
-    public void setCapacidadCargaKg(int capacidadCargaKg) {
+    public void setCapacidadCargaKg(double capacidadCargaKg) {
         this.capacidadCargaKg = capacidadCargaKg;
     }
 
