@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Vehiculo> vehiculos = new ArrayList<>();
 
-        vehiculos.add(new Vehiculo("AB123CD", "Toyota", 2020, 1000));
-        vehiculos.add(new Vehiculo("AC857DF", "Peugeot", 2023, 1000));
+        vehiculos.add(new Auto("AB123CD", "Toyota", 2020, 1000,  5));
+        vehiculos.add(new Auto("AC857DF", "Peugeot", 2023, 1000,  5 ));
         vehiculos.add(new Vehiculo("AA859HT", "Renault", 2018, 1100));
         vehiculos.add(new Vehiculo("AF378VA", "Citroen", 2024, 1500));
         vehiculos.add(new Camion("AD777GH", "Volvo", 2021, 5000, true));
