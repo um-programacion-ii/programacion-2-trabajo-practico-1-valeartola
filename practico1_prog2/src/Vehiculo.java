@@ -43,4 +43,7 @@ public class Vehiculo {
         this.capacidadCargaKg = capacidadCargaKg;
     }
 
+    public String getDescripcion() {
+        return "Vehículo: " + patente + " " + marca + " " + anio + " " + capacidadCargaKg;
+    }
 }
